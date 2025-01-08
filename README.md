@@ -14,11 +14,11 @@ This repository contains the backend of a blog application, built using **Node.j
    cd blog-app-backend
 
 ## 2.**Install Dependencies**:
-bash 
-npm install
+npm install bcryptjs body-parser cors dotenv express jsonwebtoken mongoose
+
 ## 3.
 **Set Up Environment Variables: Create a .env file with the following:**
-
+```bash
 MONGO_URI=your_mongodb_connection_string
 PORT=your_desired_port
 JWT_SECRET=your_jwt_secret
@@ -28,13 +28,14 @@ JWT_SECRET=your_jwt_secret
 bash
 npm start
 ## 5.**API Endpoints**:
-
+```bash
 User: /api/users
 Posts: /api/posts
 Comments: /api/comments
 Use tools like Postman or cURL to interact with the APIs.
 
 ## 6.**Tech Stack**
+```bash
 Node.js
 Express.js
 MongoDB (Atlas)
